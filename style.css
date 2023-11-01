@@ -1,0 +1,87 @@
+:root {
+  --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --desaturatedDarkBlue: hsl(214, 17%, 51%);
+  --grayishBlue: hsl(212, 23%, 69%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+h1 {
+  font-size: 28px;
+  color: var(--veryDarkGrayishBlue);
+  font-weight: 700;
+}
+
+body {
+  font-family: "Manrope";
+  background-color: var(--lightGrayishBlue);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 1000px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card img {
+  border-radius: 10px 0 0 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 40px 20px 40px;
+}
+
+.card-detail .info p {
+  font-size: 19px;
+  color: var(--desaturatedDarkBlue);
+  font-weight: 500;
+}
+
+.tile {
+  align-items: center;
+  height: 60px;
+  display: flex;
+}
+
+.tile img {
+  flex: 1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.tile p {
+  line-height: 10px;
+}
+
+.column {
+  margin-left: 20px;
+  flex: 100;
+}
+
+.icon {
+  flex: 1;
+  border-radius: 0px !important;
+  scale: 0.4;
+}
+
+.circle-wrapper {
+  scale: 0.75;
+  border-radius: 50%;
+  background-color: hsla(217, 19%, 35%, 0.096);
+}
+
+.tile-title {
+  color: var(--veryDarkGrayishBlue) !important;
+  font-weight: 700 !important;
+}
